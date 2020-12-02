@@ -115,7 +115,7 @@
                 .then(()=>{
 
                     alert('Atualizado com sucesso')
-
+                    this.voltar();
                 })
 
                 .catch(()=>{
