@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-form @submit.prevent="store">
+        <b-form @submit.prevent="register">
             <b-form-group
                 id="input-group-1"
                 label="Nome:"
@@ -47,7 +47,7 @@
     export default {
 
         
-        name: 'Store',
+        name: 'Register',
 
         data(){
 
@@ -67,7 +67,7 @@
 
         methods:{
 
-            store(){
+            register(){
 
                 api.post('/students', {
 

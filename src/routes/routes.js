@@ -1,6 +1,6 @@
 import Home from '../pages/Home';
 import ListStudents from '../pages/ListStudents';
-import Store from '../pages/Store';
+import Register from '../pages/Register';
 import Edit from '../pages/Edit';
 
 export default [
@@ -19,8 +19,8 @@ export default [
     },
     {
 
-        path: '/store',
-        component: Store
+        path: '/register',
+        component: Register
 
     }
     ,

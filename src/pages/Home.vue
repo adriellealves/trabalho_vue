@@ -1,11 +1,11 @@
 <template>
 
-    <div>
+ <div class="text-center"   >
         
         <h1>{{welcome_message}}</h1>
+    
         
     </div>
-
 </template>
 
 <script>
@@ -19,7 +19,6 @@
             return{
 
                 welcome_message: "Carregando..."
-
 
             }
 
